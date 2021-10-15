@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+/* attr 屬性選擇器 
+  input[type] 只要attr 有type就抓 type="text type=number" 全抓
+  input[type = "text"] attr type="text" 只會抓text  
+*/
+
+input[type] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+</style>
+</head>
+<body>
+
+<h2>Padded input fields</h2>
+
+<form>
+  <label for="fname">First Name</label>
+  <input type="text" id="fname" name="fname">
+  <label for="lname">Last Name</label>
+  <input type="text" id="lname" name="lname">
+  <input type="number" name="num1" id="">
+</form>
+
+</body>
+</html>

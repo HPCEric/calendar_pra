@@ -1,0 +1,14 @@
+/* Header Style */
+.header{
+    color: red;
+}
+
+.footer > p {
+    color: green;
+}
+
+/* Footer Style */
+.footer{
+    color: blue;
+}
+

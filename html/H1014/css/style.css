@@ -1,0 +1,17 @@
+p {
+    color: blue;
+}
+
+li {
+    list-style-type: circle;
+}
+
+/* Header style */
+.header {
+    color: blueviolet;
+}
+
+/* Footer style */
+.footer {
+    color: cadetblue;
+}

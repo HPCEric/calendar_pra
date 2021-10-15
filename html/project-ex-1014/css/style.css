@@ -1,0 +1,124 @@
+/* Global Style */
+
+html {
+    background-color: #79acb6;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 87%;
+    /* 16px 87% 13.92px 14px */
+}
+
+.container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: white;
+    padding-left: 3em;
+    padding-right: 3em;
+    /* 3em 14px x3 42px */
+}
+
+/* Header Style */
+
+.header {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    color: pink;
+    /* h1 正常 200% 16px 1.65 23px */
+}
+
+.header-title {
+    margin: 0;
+    font-weight: normal;
+    font-size: 165%;
+}
+
+.header-slogan {
+    margin: 0;
+}
+
+/* Nav Style */
+
+.nav {
+    margin-top: 5px;
+}
+
+.nav-list {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list-item{
+    list-style-type: none;
+    margin-right: 15px;
+    /* border: 1px solid red; */
+}
+
+.nav-list-item-link{
+    text-decoration: none;
+    color: lightslategray;
+    text-align: center;
+    padding: 6px 10px;
+    text-transform: uppercase;
+    border: 1px solid blue;
+    margin-right:10px;
+}
+
+.nav-sublist{
+    display: none;
+    margin:0;
+    margin:0;
+}
+
+.sub:hover .nav-sublist{
+    display: block;
+}
+
+
+
+/* Content Style */
+
+.content-area {
+    display: flex;
+    margin-top : 9px;
+    border-top: 2px solid #e5e9dc;
+    border-bottom: 1px solid #e5e5e9dc;
+    padding: 7px;
+}
+
+/* Main-area Style */
+
+.main-area {
+    width: 60%;
+    padding-right: 3em;
+}
+
+/* Sidebar Style */
+
+.sidebar {
+    width: 40%;
+    background-color: #eeeee1;
+    padding: 20px 40px;
+    font-size: 85%;
+    /* 13.92px 0.85% 11.83px */
+}
+
+/* Footer Style */
+
+.footer {
+    text-align: center;
+    font-size: 85%;
+    color: #999;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
