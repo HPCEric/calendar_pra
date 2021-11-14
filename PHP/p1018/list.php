@@ -6,13 +6,12 @@ for($i=3;$i<100;$i++){
     for($j=2;$j<$i;$j++){
         if($i % $j ==0){
             $test=true; //表示不是質數
-        }
+        } 
     }
     if($test == false){
         echo $i . ",";
     }
 }
-
 
 ?>
 <h1>complete</h1>
